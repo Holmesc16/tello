@@ -1,0 +1,32 @@
+{
+  "name": "tello",
+  "version": "1.0.0",
+  "description": "Node.js backend, React.js frontend for controlling Tello drone",
+  "main": "tello.js",
+  "scripts": {
+    "test": "nodemon tello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/holmesc16"
+  },
+  "keywords": [
+    "React.js",
+    "Express",
+    "Node.js",
+    "Socket.io",
+    "__Lodash"
+  ],
+  "author": "Cade Holmes",
+  "license": "ISC",
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "socket.io": "^2.2.0",
+    "waait": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
